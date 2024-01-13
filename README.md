@@ -14,11 +14,13 @@ Seriously, why did you buy this?
 Calls "destroy" interface
 
 ### Syntax
-'destroy_with_rizz(robot:  & mut impl Runnable, world: &mut World, direction:Direction)-> (String,Result<usize, LibError>)'
-
+``` rust
+destroy_with_rizz(robot:  & mut impl Runnable, world: &mut World, direction:Direction)-> (String,Result<usize, LibError>)
+```
 ### Usage
+```rust
 println!("{}",Rizzler::init_error_rizz()(*parameters))
-
+```
 ## Put_with_rizz:
 Calls "put" interface
  
