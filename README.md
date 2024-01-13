@@ -10,7 +10,7 @@ a (terrible) random  pick up line is printed on the terminal! the methods return
 Seriously, why did you buy this?
 
 # functions of the rizzler
-# Destroy_with_rizz:
+'Destroy_with_rizz':
 Calls "destroy" interface
 
 # Syntax
