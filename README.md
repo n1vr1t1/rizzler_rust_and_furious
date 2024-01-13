@@ -9,7 +9,7 @@ Once the Vector is all charged up, the correspondent interface of the common cra
 a (terrible) random  pick up line is printed on the terminal! the methods return both the standard interface result and a sentence selected according to the result of the same.
 Seriously, why did you buy this?
 
-# functions of the rizzler
+# Functions of the rizzler
 ## Destroy_with_rizz:
 Calls "destroy" interface
 
