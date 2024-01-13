@@ -14,7 +14,7 @@ Seriously, why did you buy this?
 Calls "destroy" interface
 
 ### Syntax
-destroy_with_rizz(robot:  & mut impl Runnable, world: &mut World, direction:Direction)-> (String,Result<usize, LibError>):
+'destroy_with_rizz(robot:  & mut impl Runnable, world: &mut World, direction:Direction)-> (String,Result<usize, LibError>)'
 
 ### Usage
 println!("{}",Rizzler::init_error_rizz()(*parameters))
