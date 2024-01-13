@@ -25,53 +25,78 @@ println!("{}",Rizzler::init_error_rizz()(*parameters))
 Calls "put" interface
  
 ### Syntax
- put_with_rizz(robot: & mut impl Runnable, world: &mut World, content: Content, quantity:usize, direction: Direction)-> (String,Result<usize, LibError>)
+``` rust
+put_with_rizz(robot: & mut impl Runnable, world: &mut World, content: Content, quantity:usize, direction: Direction)-> (String,Result<usize, LibError>)
+```
 
 ### Usage
+``` rust
 println!("{}",Rizzler::put_with_rizz(*parameters))
+```
 
 ## Discover_tiles_with_rizz:
 Calls "discover tile" interface
 
 ### Syntax
-  discover_tiles_with_rizz(robot: &mut impl Runnable, world: &mut World, to_discover: &[(usize, usize)])->(String, Result<HashMap<(usize, usize), Option<Tile>>, LibError>)
-
-### Usage
-Rizzler::println!("{}",Rizzler::discover_tiles_with_rizz(*parameters))
-
-## Discover_tiles_with_rizz:
-Calls "discover tile" interface
-
-### Syntax
+``` rust
 discover_tiles_with_rizz(robot: &mut impl Runnable, world: &mut World, to_discover: &[(usize, usize)])->(String, Result<HashMap<(usize, usize), Option<Tile>>, LibError>)
+```
 
 ### Usage
+``` rust
 Rizzler::println!("{}",Rizzler::discover_tiles_with_rizz(*parameters))
+```
+
+## Discover_tiles_with_rizz:
+Calls "discover tile" interface
+
+### Syntax
+``` rust
+discover_tiles_with_rizz(robot: &mut impl Runnable, world: &mut World, to_discover: &[(usize, usize)])->(String, Result<HashMap<(usize, usize), Option<Tile>>, LibError>)
+```
+
+### Usage
+``` rust
+Rizzler::println!("{}",Rizzler::discover_tiles_with_rizz(*parameters))
+```
 
 ## Teleport_with_rizz:
 Calls "teleport" interface
+```
 
 ### Syntax
+``` rust
 teleport_with_rizz(robot: &mut impl Runnable, world: &mut World, coordinates: (usize, usize))-> (String, Result<TileMatrix, LibError>)
+```
 
 ### Usage
+``` rust
 println!("{}",Rizzler::teleport_with_rizz(*parameters))
+```
 
 ## Look_at_sky_with_rizz:
 Calls "look_at_sky" interface
+```
 
 ### Syntax
+``` rust
 look_at_sky_with_rizz(world: &World) -> (String, EnvironmentalConditions)
+```
 
 ### Usage
+``` rust
 println!("{}",Rizzler::look_at_sky_with_rizz(*parameters))
+```
 
 ## Craft_with_rizz:
 Calls "craft" interface
 
 ### Syntax
+``` rust
 craft_with_rizz(robot: &mut impl Runnable, content: Content)-> (String, Result<Content, LibError>)
+```
 
-Usage
+### Usage
+``` rust
 println!("{}",Rizzler::craft_with_rizz(*parameters))
-    
+```
