@@ -19,7 +19,7 @@ destroy_with_rizz(robot:  & mut impl Runnable, world: &mut World, direction:Dire
 ```
 ### Usage
 ```rust
-println!("{}",Rizzler::init_error_rizz()(*parameters))
+println!("{}",rizzler::init_error_rizz()(*parameters))
 ```
 ## Put_with_rizz:
 Calls "put" interface
@@ -31,7 +31,7 @@ put_with_rizz(robot: & mut impl Runnable, world: &mut World, content: Content, q
 
 ### Usage
 ``` rust
-println!("{}",Rizzler::put_with_rizz(*parameters))
+println!("{}",rizzler::put_with_rizz(*parameters))
 ```
 
 ## Discover_tiles_with_rizz:
@@ -44,7 +44,7 @@ discover_tiles_with_rizz(robot: &mut impl Runnable, world: &mut World, to_discov
 
 ### Usage
 ``` rust
-Rizzler::println!("{}",Rizzler::discover_tiles_with_rizz(*parameters))
+Rizzler::println!("{}",rizzler::discover_tiles_with_rizz(*parameters))
 ```
 
 ## Discover_tiles_with_rizz:
@@ -57,7 +57,7 @@ discover_tiles_with_rizz(robot: &mut impl Runnable, world: &mut World, to_discov
 
 ### Usage
 ``` rust
-Rizzler::println!("{}",Rizzler::discover_tiles_with_rizz(*parameters))
+Rizzler::println!("{}",rizzler::discover_tiles_with_rizz(*parameters))
 ```
 
 ## Teleport_with_rizz:
@@ -71,7 +71,7 @@ teleport_with_rizz(robot: &mut impl Runnable, world: &mut World, coordinates: (u
 
 ### Usage
 ``` rust
-println!("{}",Rizzler::teleport_with_rizz(*parameters))
+println!("{}",rizzler::teleport_with_rizz(*parameters))
 ```
 
 ## Look_at_sky_with_rizz:
@@ -85,7 +85,7 @@ look_at_sky_with_rizz(world: &World) -> (String, EnvironmentalConditions)
 
 ### Usage
 ``` rust
-println!("{}",Rizzler::look_at_sky_with_rizz(*parameters))
+println!("{}",rizzler::look_at_sky_with_rizz(*parameters))
 ```
 
 ## Craft_with_rizz:
@@ -98,5 +98,5 @@ craft_with_rizz(robot: &mut impl Runnable, content: Content)-> (String, Result<C
 
 ### Usage
 ``` rust
-println!("{}",Rizzler::craft_with_rizz(*parameters))
+println!("{}",rizzler::craft_with_rizz(*parameters))
 ```
